@@ -1,3 +1,17 @@
 *{
-    background-color: rgb(207, 195, 195);
+    font-family: 'Lato', sans-serif;
+    h1{
+        font-size: 2rem !important;
+        text-align: center;
+    }
+    @media screen and(max-width:768px ){
+        .menu{
+            display: none;
+        }
+    }
+    .imagen{
+        width: 200px;
+        height: auto;
+    }
+    
 }

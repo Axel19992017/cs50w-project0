@@ -1,5 +1,21 @@
 * {
-  background-color: #cfc3c3;
+  font-family: "Lato", sans-serif;
+}
+* h1 {
+  font-size: 2rem !important;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  * .menu {
+    display: none;
+  }
+}
+* .imagen {
+  width: 200px;
+  height: auto;
+}
+* .tarjetita {
+  padding: 1px;
 }
 
 /*# sourceMappingURL=styles.css.map */
