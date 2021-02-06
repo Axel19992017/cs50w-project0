@@ -1,17 +1,77 @@
-*{
+$color1: #132F40;
+$color2: #51868C;
+$color3: #F2EDD0;
+$color4: #F27D52;
+$color5: #BF6C5A;
+
+// https://angrytools.com/css-generator/border/
+body {
+    background-color: $color1;
+    color: $color3;
     font-family: 'Lato', sans-serif;
-    h1{
+
+    h1 {
         font-size: 2rem !important;
         text-align: center;
     }
-    @media screen and(max-width:768px ){
-        .menu{
+
+    h2 {
+        font-size: 1.5rem !important;
+        text-align: center;
+    }
+    h3{
+        font-size: 1.2rem !important;
+        text-align: center;
+    }
+
+    @media screen and(max-width:768px) {
+        .menu {
             display: none;
         }
     }
-    .imagen{
+
+    .imagen {
         width: 200px;
         height: auto;
     }
-    
+
+    .list-group-item {
+        background-color: $color4 !important;
+    }
+
+    header {
+        padding: 2rem;
+        text-shadow: 0px 5px 10px $color2;
+    }
+
+    @media screen and(max-width:768px) {
+        .card:nth-child(2n+1) {
+            background-color: $color2;
+            margin: 1rem;
+        }
+        .card:nth-child(2n) {
+            background-color: $color3;
+            color: $color1;
+            margin: 1rem;
+        }
+    }
+    @media screen and(min-width:768px) {
+        .card:nth-child(2), .card:nth-child(3), .card:nth-child(6), .card:nth-child(7){
+            background-color: $color2;
+            margin: 1rem;
+        }
+        .card:nth-child(1), .card:nth-child(4), .card:nth-child(5)    {
+            background-color: $color3;
+            color: $color1;
+            margin: 1rem;
+        }
+    }
+    .card-img-top{
+        width: 50%;
+        margin: 5%;
+    }
+    a, a:hover {
+        color: $color3;
+    }
+
 }
