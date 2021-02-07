@@ -9,7 +9,9 @@ body {
     background-color: $color1;
     color: $color3;
     font-family: 'Lato', sans-serif;
-
+    background-image: url('../img/fondo.jpg');
+    background-repeat: repeat;
+    background-size: contain;
     h1 {
         font-size: 2rem !important;
         text-align: center;
@@ -42,6 +44,8 @@ body {
     header {
         padding: 2rem;
         text-shadow: 0px 5px 10px $color2;
+        background-color: $color1;
+        width: 100vw;
     }
 
     @media screen and(max-width:768px) {
@@ -73,5 +77,24 @@ body {
     a, a:hover {
         color: $color3;
     }
+    blockquote{
+        background-color: $color5;
+        box-shadow:0px 0px 73px 0px $color5 ;
+        color: $color1 ;
+        font-style: italic;
+        a, a:hover {
+            color: $color1;
+        }
+        padding: 5%;
+    }
+    div>p{
+        padding: 3%;
+        font-size: large;
+        text-shadow:0px 5px 10px $color1;
+
+    }
+
+       
+    
 
 }

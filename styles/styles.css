@@ -2,6 +2,9 @@ body {
   background-color: #132F40;
   color: #F2EDD0;
   font-family: 'Lato', sans-serif;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 body h1 {
@@ -37,6 +40,8 @@ body .list-group-item {
 body header {
   padding: 2rem;
   text-shadow: 0px 5px 10px #51868C;
+  background-color: #132F40;
+  width: 100vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -70,5 +75,24 @@ body .card-img-top {
 
 body a, body a:hover {
   color: #F2EDD0;
+}
+
+body blockquote {
+  background-color: #BF6C5A;
+  -webkit-box-shadow: 0px 0px 73px 0px #BF6C5A;
+          box-shadow: 0px 0px 73px 0px #BF6C5A;
+  color: #132F40;
+  font-style: italic;
+  padding: 5%;
+}
+
+body blockquote a, body blockquote a:hover {
+  color: #132F40;
+}
+
+body div > p {
+  padding: 3%;
+  font-size: large;
+  text-shadow: 0px 5px 10px #132F40;
 }
 /*# sourceMappingURL=styles.css.map */
