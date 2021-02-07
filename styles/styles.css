@@ -86,13 +86,24 @@ body blockquote {
   padding: 5%;
 }
 
+body blockquote h3 {
+  font-weight: bold;
+}
+
 body blockquote a, body blockquote a:hover {
   color: #132F40;
 }
 
-body div > p {
+body div > p, body div#exclusivo > ul > li {
   padding: 3%;
   font-size: large;
   text-shadow: 0px 5px 10px #132F40;
+}
+
+body .container.m-0.p-0 {
+  background-color: #132F40;
+  color: #F2EDD0;
+  width: 100vw;
+  max-width: none;
 }
 /*# sourceMappingURL=styles.css.map */

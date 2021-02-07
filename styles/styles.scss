@@ -82,16 +82,25 @@ body {
         box-shadow:0px 0px 73px 0px $color5 ;
         color: $color1 ;
         font-style: italic;
+        h3{
+            font-weight: bold;
+        }
         a, a:hover {
             color: $color1;
         }
         padding: 5%;
     }
-    div>p{
+    div>p, div#exclusivo>ul>li{
         padding: 3%;
         font-size: large;
         text-shadow:0px 5px 10px $color1;
 
+    }
+    .container.m-0.p-0{
+        background-color: $color1;
+        color: $color3;
+        width: 100vw;
+        max-width: none;
     }
 
        
