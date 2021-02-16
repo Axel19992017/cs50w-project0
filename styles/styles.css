@@ -74,7 +74,7 @@ body .card-img-top {
 }
 
 body a, body a:hover {
-  color: #F2EDD0;
+  color: inherit;
 }
 
 body blockquote {
