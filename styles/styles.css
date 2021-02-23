@@ -21,15 +21,19 @@
   }
 }
 
-* ::-webkit-scrollbar-track {
+* ::-webkit-scrollbar-track, * ::-webkit-scrollbar-thumb {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  background-color: #F20544;
+  border-radius: 4px;
+  background-color: #F2F2F2;
 }
 
 * ::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
   background-color: #F2F2F2;
+}
+
+* ::-webkit-scrollbar-thumb {
+  background-color: #F20544;
 }
 
 footer {
@@ -95,11 +99,16 @@ body header {
 }
 
 @media screen and (min-width: 768px) {
-  body .card:nth-child(2), body .card:nth-child(3), body .card:nth-child(6), body .card:nth-child(7) {
+  body .card:nth-child(2),
+  body .card:nth-child(3),
+  body .card:nth-child(6),
+  body .card:nth-child(7) {
     background-color: #260801;
     margin: 1rem;
   }
-  body .card:nth-child(1), body .card:nth-child(4), body .card:nth-child(5) {
+  body .card:nth-child(1),
+  body .card:nth-child(4),
+  body .card:nth-child(5) {
     background-color: #F2F2F2;
     color: #0D0D0D;
     margin: 1rem;
@@ -111,7 +120,8 @@ body .card-img-top {
   margin: 5%;
 }
 
-body a, body a:hover {
+body a,
+body a:hover {
   color: inherit;
 }
 
@@ -128,11 +138,13 @@ body blockquote h3 {
   font-weight: bold;
 }
 
-body blockquote a, body blockquote a:hover {
+body blockquote a,
+body blockquote a:hover {
   color: #0D0D0D;
 }
 
-body div > p, body div#exclusivo > ul > li {
+body div > p,
+body div#exclusivo > ul > li {
   padding: 3%;
   font-size: large;
   text-shadow: 0px 5px 10px #0D0D0D;
