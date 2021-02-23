@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAMA,AACI,uBADmB,CACnB,GAAG,AAAA,KAAK,CAAA;EACJ,gBAAgB,EANf,OAAO;EAOR,KAAK,EARL,OAAO;CASV",
     "sources": [
         "casos-dificiles.scss"
     ],

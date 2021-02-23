@@ -1,21 +1,34 @@
-$color1: #132F40;
-$color2: #51868C;
-$color3: #F2EDD0;
-$color4: #F27D52;
-$color5: #BF6C5A;
-::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #F5F5F5;
-}
+@import 'casos-dificiles.scss';
+@import 'comienzo-de-la-vida.scss';
+@import 'derechos.scss';
+@import 'derechos-corporales.scss';
+@import 'desarrollo-prenatal.scss';
+@import 'ilegalidad-aborto.scss';
 
-::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: #F5F5F5;
-}
+$color1: #0D0D0D;
+$color2:#260801;
+$color3: #F2F2F2;
+$color5: #F20544;
+$color4: #2B211F;
 
+*{
+    ::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: $color5;
+    }
+
+    ::-webkit-scrollbar
+    {
+        width: 5px;
+        background-color: $color3;
+    }
+    
+}
+footer{
+    background-color: $color1;
+}
 // https://angrytools.com/css-generator/border/
 body {
     background-color: $color1;
@@ -122,9 +135,3 @@ body {
     
 
 }
-@import 'casos-dificiles.scss';
-@import 'comienzo-de-la-vida.scss';
-@import 'derechos.scss';
-@import 'derechos-corporales.scss';
-@import 'desarrollo-prenatal.scss';
-@import 'ilegalidad-aborto.scss';

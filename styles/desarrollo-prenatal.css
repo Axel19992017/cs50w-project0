@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=desarrollo-prenatal.css.map */
+@media screen and (max-width: 768px) {
+  .table-large {
+    display: none;
+  }
+  .table-small {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .table-large {
+    display: block;
+  }
+  .table-small {
+    display: none;
+  }
+}
+/*# sourceMappingURL=desarrollo-prenatal.css.map */
