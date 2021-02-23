@@ -1,9 +1,5 @@
 @import 'casos-dificiles.scss';
-@import 'comienzo-de-la-vida.scss';
-@import 'derechos.scss';
-@import 'derechos-corporales.scss';
 @import 'desarrollo-prenatal.scss';
-@import 'ilegalidad-aborto.scss';
 
 $color1: #0D0D0D;
 $color2:#260801;
@@ -123,8 +119,7 @@ body {
         margin: 5%;
     }
 
-    a,
-    a:hover {
+    a,a:hover {
         color: inherit;
     }
 

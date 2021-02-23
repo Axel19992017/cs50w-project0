@@ -120,8 +120,7 @@ body .card-img-top {
   margin: 5%;
 }
 
-body a,
-body a:hover {
+body a, body a:hover {
   color: inherit;
 }
 
