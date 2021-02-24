@@ -33,20 +33,20 @@
 }
 
 * ::-webkit-scrollbar-thumb {
-  background-color: #F20544;
+  background-color: #57E3F2;
 }
 
 footer {
-  background-color: #0D0D0D;
+  background-color: #25479E;
 }
 
 body {
-  background-color: #0D0D0D;
+  background-color: #25479E;
   color: #F2F2F2;
   font-family: 'Lato', sans-serif;
   background-image: url("../img/fondo.jpg");
-  background-repeat: repeat;
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow-x: hidden;
 }
 
@@ -77,23 +77,23 @@ body .imagen {
 }
 
 body .list-group-item {
-  background-color: #2B211F !important;
+  background-color: #D93672 !important;
 }
 
 body header {
   padding: 2rem;
-  text-shadow: 0px 5px 10px #260801;
-  background-color: #0D0D0D;
+  text-shadow: 0px 5px 10px #2953A6;
+  background-color: #25479E;
 }
 
 @media screen and (max-width: 768px) {
   body .card:nth-child(2n+1) {
-    background-color: #260801;
+    background-color: #2953A6;
     margin: 1rem;
   }
   body .card:nth-child(2n) {
     background-color: #F2F2F2;
-    color: #0D0D0D;
+    color: #25479E;
     margin: 1rem;
   }
 }
@@ -103,14 +103,14 @@ body header {
   body .card:nth-child(3),
   body .card:nth-child(6),
   body .card:nth-child(7) {
-    background-color: #260801;
+    background-color: #2953A6;
     margin: 1rem;
   }
   body .card:nth-child(1),
   body .card:nth-child(4),
   body .card:nth-child(5) {
     background-color: #F2F2F2;
-    color: #0D0D0D;
+    color: #25479E;
     margin: 1rem;
   }
 }
@@ -125,10 +125,10 @@ body a, body a:hover {
 }
 
 body blockquote {
-  background-color: #F20544;
-  -webkit-box-shadow: 0px 0px 73px 0px #F20544;
-          box-shadow: 0px 0px 73px 0px #F20544;
-  color: #0D0D0D;
+  background-color: #57E3F2;
+  -webkit-box-shadow: 0px 0px 73px 0px #57E3F2;
+          box-shadow: 0px 0px 73px 0px #57E3F2;
+  color: #25479E;
   font-style: italic;
   padding: 5%;
 }
@@ -139,18 +139,18 @@ body blockquote h3 {
 
 body blockquote a,
 body blockquote a:hover {
-  color: #0D0D0D;
+  color: #25479E;
 }
 
 body div > p,
 body div#exclusivo > ul > li {
   padding: 3%;
   font-size: large;
-  text-shadow: 0px 5px 10px #0D0D0D;
+  text-shadow: 0px 5px 10px #25479E;
 }
 
 body .container.m-0.p-0 {
-  background-color: #0D0D0D;
+  background-color: #25479E;
   color: #F2F2F2;
   max-width: none;
 }
